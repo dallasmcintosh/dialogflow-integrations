@@ -32,13 +32,13 @@ app.use(express.json());
 //Upon start a webhook is registered with twitter
 //Upon closure the webhook is removed from twitter
 
-const twitterAPIKey = "Place your consumer key here";
-const twitterSecretAPIKey = "Place you secret consumer key here";
-const twitterAccessToken = "Place your access token here";
-const twitterSecretAccessToken = "Place your secret access token here";
+const twitterAPIKey = "SvZDT14cAO2uh4ddjJXJuq6h3";
+const twitterSecretAPIKey = "PlgXf0NcGGrwX6gQtUkHUYMYlPd4KRql63vXWDlDqMGiuekxJk";
+const twitterAccessToken = "1124686764357103616-s7P8kN71x8CdAgExBrKDDomYKSUn9Q";
+const twitterSecretAccessToken = "eCdrBlTbCgLczq3M9CHQkC5oIrqN2DWRptj7A8Dk59e2Z";
 const targetUrl = "Place your server's url here";
-const projectId = "Place your dialogflow projectId here";
-const environmentName = "Place your twitter environment name here";
+const projectId = "karma-amvk";
+const environmentName = "Startup";
 
 const twitterOAuth = {
   consumer_key: twitterAPIKey,
